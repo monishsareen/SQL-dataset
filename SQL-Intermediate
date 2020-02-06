@@ -1,0 +1,13 @@
+1. Some of the facilities charge a fee to members, but some do not.
+Please list the names of the facilities that do?
+
+--> SELECT *
+FROM Facilities
+WHERE membercost >0
+
+2. How many facilities do not charge a fee to members?
+SELECT *
+FROM Facilities
+WHERE membercost =0
+
+3. 
